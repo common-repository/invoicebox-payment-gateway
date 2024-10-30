@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "onepix/invoicebox_sdk",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/InvoiceBox/sdk-php.git",
+                "reference": "bc0c9b19ff4f87c3ba3a61b64c0c97e3520ed748"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/InvoiceBox/sdk-php/zipball/bc0c9b19ff4f87c3ba3a61b64c0c97e3520ed748",
+                "reference": "bc0c9b19ff4f87c3ba3a61b64c0c97e3520ed748",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9.5.10 - 9.5.16"
+            },
+            "time": "2022-04-13T16:31:21+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "Invoicebox.php"
+                ],
+                "psr-4": {
+                    "Invoicebox\\Contracts\\": "Contracts",
+                    "Invoicebox\\Exceptions\\": "Exceptions",
+                    "Invoicebox\\Resources\\": "Resources",
+                    "Invoicebox\\V2\\": "v2",
+                    "Invoicebox\\V3\\": "v3"
+                }
+            },
+            "support": {
+                "source": "https://github.com/InvoiceBox/sdk-php/tree/main",
+                "issues": "https://github.com/InvoiceBox/sdk-php/issues"
+            },
+            "install-path": "../onepix/invoicebox_sdk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

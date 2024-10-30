@@ -1,0 +1,25 @@
+{
+    "name": "invoicebox/invoicebox_payment-gateway-for-woocommerce",
+    "type": "library",
+    "autoload": {
+        "classmap": [
+            "index.php"
+        ],
+        "psr-4": {
+            "InvoiceboxPaymentGateway\\Includes\\": "includes"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/InvoiceBox/sdk-php.git"
+        }
+
+    ],
+    "require": {
+        "php" : ">= 7.0",
+        "ext-json": "*",
+        "onepix/invoicebox_sdk": "dev-main"
+    }
+
+}
